@@ -1,4 +1,4 @@
-import { sum } from '../../src/jest/foo'
+import { sum } from '../../src/jest/foo';
 
 test('basic', () => {
   expect(sum()).toBe(0);
