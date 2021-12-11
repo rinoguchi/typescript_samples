@@ -15,9 +15,16 @@ yarn test
 ## lint
 
 ```sh
-yarn run eslint src/jest/foo.ts
+yarn lint
+```
+
+## format
+
+```sh
+yarn format
 ```
 
 ## blog
 
-<https://rinoguchi.net/2021/09/jest-typescript-tips.html>
+- <https://rinoguchi.net/2021/09/jest-typescript-tips.html>
+- <https://rinoguchi.net//2021/12/prettier-eslint-stylelint.html>
