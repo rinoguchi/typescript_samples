@@ -8,7 +8,7 @@ class Size {
   static readonly M = new Size('M', 'Medium');
   static readonly L = new Size('L', 'Large');
 
-  /** コンストラクタ。は外部から実行されると困るので private 装飾*/
+  /** コンストラクタ。は外部から実行されると困るので private 装飾 */
   private constructor(readonly name: string, readonly fullname: string) {
     Size.values.push(this);
   }
