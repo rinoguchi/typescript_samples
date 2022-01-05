@@ -1,10 +1,11 @@
 export default class OtherClass {
-  static staticStr = 'staticClass';
-  static once = (str: string): string => {
-    return str;
-  };
+  static fixedStr = 'fixed';
 
-  static plusStatic = (str: string): string => {
-    return str + this.staticStr;
-  };
+  static plusFixedStrByStaticMethod(str: string): string {
+    return str + this.fixedStr;
+  }
+
+  plusFixedStrByInstanceMethod(str: string): string {
+    return str + OtherClass.fixedStr;
+  }
 }
